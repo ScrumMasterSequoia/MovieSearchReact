@@ -57,15 +57,3 @@ const App = () => {
 
 export default App;
 
-// to create this project, I used the youtube tutorial at
-// https://www.youtube.com/watch?v=b9eMGE7QtTk&t=3051s
-// titled: React JS Full Course 2022 | Build an App and Master React in 1 Hour
-// use in js code terminal 
-// npx create-react-app ./
-// then delete unnecessary files and use 
-// npm start
-// needed to copy the App.css and search.svg files from the 
-// github jist file in the comments of the video
-// additional resource: https://omdbapi.com/apikey 
-// for movie listings and backend data
-
