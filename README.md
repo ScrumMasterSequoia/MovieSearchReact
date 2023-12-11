@@ -83,3 +83,7 @@ needed to copy the App.css and search.svg files from the
 github jist file in the comments of the video
 additional resource: https://omdbapi.com/apikey 
 for movie listings and backend data
+
+
+
+Within the App.js file, I use React to create an instance of App, which uses the useEffect hook to handle state within the project. The search term uses string interpolation to concatonate string and vairables. Using the OMDB API, we send an async await, which returns a promise with the response.json as the data for the search response. Then I create the app component with a search bar at the top and handle the user search via onChange events. The app creates MovieCard components based on the MovieCard.jsx file, which in turn makes a container with all the movie data and image. The app creates a map of all the resulting movies, creating a movie card for each response. This allows the user to interract with the movie cards and get more information about the results of their search by selecting a specific movie. Then, naturally, the App.css file styles all of the various components in the DOM using class and id tags, and uses @media queries to adjust the main container and components for various screen sizes. 
